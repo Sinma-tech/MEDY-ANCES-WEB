@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Medy Ances</title>
+</head>
+<body>
+
+    <nav>
+        <p>
+            <a href="index.html">Inicio</a> | 
+            <a href="nosotros.html">Nosotros</a> | 
+            <a href="servicios.html">Servicios</a> | 
+            <a href="productos.html">Productos</a> | 
+            <a href="equipo.html">Equipo</a> | 
+            <a href="contacto.html">Contacto</a>
+        </p>
+    </nav>
+
+    <hr>
+
+    <h1>Contacto - Medy Ances</h1>
+    <p>Comunícate con nosotros o visítanos en nuestro local. Estamos listos para atenderte y brindarte la mejor atención personalizada.</p>
+
+    <hr>
+
+    <h2>Información del Local</h2>
+    <p><strong>Dirección:</strong> Santo Domingo, vía Quito, kilómetro 4 y medio, El Paraíso.</p>
+    <p><strong>Teléfono:</strong> 0980999999</p>
+    <p><strong>Correo Electrónico:</strong> medyances@gmail.com</p>
+    <p><strong>Horarios de Atención:</strong></p>
+    <ul>
+        <li><strong>Lunes a Sábado:</strong> Atención continua desde las 7:00 a.m. hasta las 10:00 p.m.</li>
+        <li><strong>Domingo:</strong> Cerrado (Día de descanso institucional).</li>
+    </ul>
+
+    <hr>
+
+    <h2>Ubicación en el Mapa</h2>
+    <p>Encuentra nuestro establecimiento mediante el mapa interactivo:</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24189.49348509434!2d-79.13439135623457!3d-0.25830092433849317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5471a575f4c03%3A0xe90b1f582f665b65!2sEl%20para%C3%ADso!5e0!3m2!1ses-419!2sec!4v1793081838322!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <hr>
+
+    <h2>Formulario de Registro y Contacto de Clientes</h2>
+    <p>Por favor, completa tus datos personales y tu consulta en el siguiente formulario:</p>
+
+    <form action="#" method="POST">
+        <p>
+            <label for="nombres">Nombres Completos:</label><br>
+            <input type="text" id="nombres" name="nombres" required>
+        </p>
+
+        <p>
+            <label for="cedula">Número de Cédula:</label><br>
+            <input type="text" id="cedula" name="cedula" required>
+        </p>
+
+        <p>
+            <label for="correo">Correo Electrónico:</label><br>
+            <input type="text" id="correo" name="correo" required>
+        </p>
+
+        <p>
+            <label for="telefono">Teléfono:</label><br>
+            <input type="text" id="telefono" name="telefono" required>
+        </p>
+
+        <p>
+            <label>Género:</label><br>
+            <input type="radio" id="genero_m" name="genero" value="masculino">
+            <label for="genero_m">Masculino</label><br>
+            <input type="radio" id="genero_f" name="genero" value="femenino">
+            <label for="genero_f">Femenino</label><br>
+            <input type="radio" id="genero_o" name="genero" value="otro">
+            <label for="genero_o">Prefiero no decirlo</label>
+        </p>
+
+        <p>
+            <label for="motivo">Motivo principal del contacto:</label><br>
+            <select id="motivo" name="motivo" required>
+                <option value="" disabled selected>-- Selecciona una opción --</option>
+                <option value="productos">Compra de Productos (Yanbal, Nipponflex, etc.)</option>
+                <option value="bienestar">Asesoría de Bienestar y Descanso</option>
+                <option value="medicina">Medicina Natural y Remedios</option>
+                <option value="otro">Otro tipo de consulta</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="mensaje">Detalle de su mensaje, pedido o consulta:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" id="novedades" name="novedades" value="si">
+            <label for="novedades">Deseo recibir información sobre promociones y novedades</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar Datos de Contacto">
+        </p>
+    </form>
+
+</body>
+</html>
